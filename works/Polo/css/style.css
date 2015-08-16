@@ -1,0 +1,83 @@
+nav small {
+    text-transform: none;
+}
+header {
+    background-color: #000;
+    background-position: fixed;
+}
+header .carousel {
+    top: 28px;
+}
+.navbar {
+    min-height: 95px;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    height: 95px;
+}
+.thumbnail a>img, .thumbnail>img {
+    margin:0;
+}
+.content-down ul {
+    padding-left: 0;
+}
+.content-down ul li {
+    list-style: none;
+    display: inline-block;
+}
+footer {
+    padding-top: 20px;
+    background-color: #333333;
+    color: #fff;
+}
+footer ul {
+    padding-left: 0;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+footer ul li a {
+    padding-right: 10px;
+    color: #dedede;
+}
+footer ul li a:hover {
+    color: inherit;;
+}
+.container,.container-fluid {
+    width: 80%;
+}
+.carousel-control.right,.carousel-control.left {
+
+    background-image: none;
+
+}
+.carousel-indicators {
+    left: 5%;
+}
+.padding-20 {
+    padding-top: 10px;
+}
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
+    font-size: 50%;
+}
+.color-blue {
+    color: #4a89ad;
+}
+.thumbnail {
+    box-shadow: none;
+    border: 0;
+}
+.ubg{
+    height: 10px;
+    background-color:#4c4c4c;
+}
+.margin-50 {
+    margin-bottom: 50px;
+}
+@media (max-width: 480px) {
+    .carousel-indicators {
+        left: 15%;
+    }
+}

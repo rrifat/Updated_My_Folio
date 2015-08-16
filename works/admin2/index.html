@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Project 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+    </head>
+
+    <body>
+
+
+        <div class="top_menu_area">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid menu_area">
+                    <a class="btn newbtn"><span class="glyphicon glyphicon-align-justify"></span></a>
+
+                    <ul class="nav navbar-nav navbar-right newbtn2">
+                        <li><a href="#"><i class="fa fa-envelope"></i> 3</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i> 2</a></li>
+                        <li><a href="#"><i class="fa fa-book"></i> 5</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-cog"></i> Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa fa-paint-brush"></i> Theme</a></li>
+                        <li><a href="#"><img src="images/ku.png"></a></li>
+                        <li><a href="#">Login <i class="fa fa-lock blue"></i> </a></li>
+                    </ul>
+
+
+
+
+                </div>
+                <div class="col-md-2" style="padding: 0px;">
+                    <div class="inner-addon right-addon">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <input type="text" class="form-control" placeholder="Quick search.." />
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+                    <button type="button" class=" back btn "><span class="glyphicon glyphicon-home "></span></button>
+                    <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bookings</span>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+
+
+
+        <div class="main_area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2" style="padding: 0px;">
+                        <div class="list-group">
+                            <li class="list-group-item" style="background: #BFBFBF;"><strong style="color: gray;">CATEGORY</strong></li>
+                            <a class="list-group-item" href="#"><i class="fa fa-home fa-fw back1"></i>&nbsp; Dashboard</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-wrench fa-fw back1"></i>&nbsp; Components</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-bars fa-fw back1"></i>&nbsp; Forms</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-users fa-fw back1"></i>&nbsp; My Account</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-calendar fa-fw back1"></i>&nbsp; Landing Pages</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-table fa-fw back1"></i>&nbsp; Pricing Tables</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-comments-o fa-fw back1"></i>&nbsp; FAQ</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-file-o fa-fw back1"></i>&nbsp; Invoice</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-calendar fa-fw back1"></i>&nbsp; Calender</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-user fa-fw back1"></i>&nbsp; Login</a>
+                        </div>  
+                    </div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <i class="fa fa-book fa-2x"> <strong>Bookings</strong></i>
+                                <div class="btn-group pull-right" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-primary active"><i class="fa fa-plus-circle"></i></button>
+                                    <button type="button" class="btn btn-primary">Add Bookings</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="up_content">
+                                <nav class="navbar navbar-default">
+                                    <div class="container-fluid">
+                                        <!--<div class="col-md-12">-->
+                                        <ul class="nav navbar-nav col-md-12">
+                                            <li class="col-md-3">From:</li>
+                                            <li class="col-md-3">To:</li>
+                                            <li class="col-md-3">Price:</li>
+                                            <li class="col-md-3">Select:&nbsp;
+                                                <select class="selectpicker special">
+                                                    <option>Some Options...</option>
+                                                    <option>Ketchup</option>
+                                                    <option>Relish</option>
+                                                </select>
+                                            </li>
+
+
+                                        </ul>
+                                        <!--</div>-->
+
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding:0px">
+                                <div class="panel panel-default">
+                                    <!-- Default panel contents -->
+                                    <div class="panel-heading text-right"> <span class="glyphicon glyphicon-calendar"><strong> Friday,14 December 2014</strong></span></div>
+                                    <div class="panel-body sizing2">
+                                        <div class="h5 text-right">
+                                            <strong>Sort by:</strong>
+                                            <button class="btn bt-sm"> <span class="caret"></span></button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Table -->
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <tr>
+                                                <th><input type="checkbox"></th>
+                                                <th class="text-center">NO.</th>
+                                                <th class="text-center">TIME</th>
+                                                <th class="text-center">CLIENT</th>
+                                                <th class="text-center">PHONE</th>
+                                                <th class="text-center">AMOUNT</th>
+                                                <th class="text-center">HEARD FROM</th>
+                                                <th class="text-center">ACTION</th>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox"></td>
+                                                <td>1</td>
+                                                <td>11:00</td>
+                                                <td><strong>Lorem Ipsum</strong> <br>Location: New York</td>
+                                                <td>007400000</td>
+                                                <td class="text-center">&euro;65</td>
+                                                <td class="text-center">Friend</td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-info btn-xs"><i class="glyphicon glyphicon-eye-open"></i></button>
+                                                    <button class="btn btn-success btn-xs"><i class="glyphicon glyphicon-pencil"></i></button>
+                                                    <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                                                </td>
+
+                                            </tr>
+                                            <tr class="active">
+                                                <td><input type="checkbox" checked></td>
+                                                <td>2</td>
+                                                <td>11:00</td>
+                                                <td><strong>Lorem Ipsum</strong> <br>Location: Las Vegas</td>
+                                                <td>007400000</td>
+                                                <td class="text-center">&euro;27</td>
+                                                <td class="text-center">Flyer</td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-info btn-xs"><i class="glyphicon glyphicon-eye-open"></i></button>
+                                                    <button class="btn btn-success btn-xs"><i class="glyphicon glyphicon-pencil"></i></button>
+                                                    <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox"></td>
+                                                <td>3</td>
+                                                <td>11:00</td>
+                                                <td><strong>Lorem Ipsum</strong> <br>Location: Las Vegas</td>
+                                                <td>007400000</td>
+                                                <td class="text-center">&euro;10</td>
+                                                <td class="text-center">Friend</td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-info btn-xs"><i class="glyphicon glyphicon-eye-open"></i></button>
+                                                    <button class="btn btn-success btn-xs"><i class="glyphicon glyphicon-pencil"></i></button>
+                                                    <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox"></td>
+                                                <td>4</td>
+                                                <td>11:00</td>
+                                                <td><strong>Lorem Ipsum</strong> <br>Location: Miami</td>
+                                                <td>007400000</td>
+                                                <td class="text-center">&euro;10</td>
+                                                <td class="text-center">Google Search</td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-info btn-xs"><i class="glyphicon glyphicon-eye-open"></i></button>
+                                                    <button class="btn btn-success btn-xs"><i class="glyphicon glyphicon-pencil"></i></button>
+                                                    <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="sizing3">
+                                    <nav>
+                                        <ul class="pagination pull-right">
+                                            <li class="disabled">
+                                                <a href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">&laquo;</span>
+                                                </a>
+                                            </li>
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li>
+                                                <a href="#" aria-label="Next">
+                                                    <span aria-hidden="true">&raquo;</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+
+
+
+
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>
